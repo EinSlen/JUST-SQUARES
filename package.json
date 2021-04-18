@@ -1,0 +1,15 @@
+{
+  "name": "justsquares",
+  "version": "0.1.0",
+  "description": "A demo of connexion with one room with socket.io and Node.JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "express": "~4.10.2",
+    "socket.io": "latest"
+  },
+  "port": "80"
+}
